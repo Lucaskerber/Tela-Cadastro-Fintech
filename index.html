@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="checkbox" id="chec">
+    <label class="menuLateral" for="chec">
+        <img src="./assets/images/dazzle (2).png" alt="">
+    </label>
+
+    <nav>
+
+        <ul>
+            <h3>Configurações</h3>
+
+            <li><a href="">Perfil</a></li>
+            <li><a href="">Privacidade</a></li>
+            <li><a href="">Notificações</a></li>
+            <li><a href="">Suporte</a></li>
+
+            <h3>Para Você</h3>
+
+            <li><a href="">Extratos</a></li>
+            <li><a href="">Gráficos</a></li>
+            <li><a href="">Seu perfil de investidos</a></li>
+            <li><a href="">Conheça o mercado financeiro</a></li>
+
+            <h2>Desconectar</h2>
+
+        </ul>
+    </nav>
+
+
+
+    <div class="col-sm-12">
+
+
+        <div class="titulo">
+            <h1>DinHelp</h1>
+
+        </div>
+
+        <div class="container">
+            <div class="box ">
+                <h2 class="titulo">Crie Seu Cadastro</h2>
+                <p>Controle melhor sua vida financeira, faça o cadastro em nosso app para conquistar o seu sonho!</p>
+                <img class="dinheiro" src="./assets/images/cifrao.svg" alt="cifrão">
+            </div>
+
+            <div class="box ">
+                <h2 class="titulo ">Preencha seus Dados</h2>
+                <form class="form" id="dados" name="dados" method="post" action="">
+                    <div class="box-itens">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Ex: Lucas" required>
+                    </div>
+                    <div class="box-itens">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Ex: Kerber"
+                            required>
+                    </div>
+                    <div class="box-itens">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" class="form-control" id="usuario" name="usuario"
+                            placeholder="Ex: lucaskerber" required>
+                    </div>
+                    <div class="box-itens">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="Ex: lucaskerber@gmail.com" required>
+                    </div>
+                    <div class="box-itens">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Ex: 12345@"
+                            required>
+                    </div>
+                    <div class="box-itens">
+                        <label for="dtn">Data de Nascimento</label>
+                        <input type="date" class="form-control" id="dtn" name="dtn" required>
+                    </div>
+                    <div class="box-button">
+                        <button type="button">Criar Conta <i class="fa-solid fa-right-to-bracket"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
